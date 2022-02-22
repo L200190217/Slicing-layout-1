@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>   
+        <nav class="menu">
+            <div class="container">
+            <div class="cat">
+                <img src="image/Cat Paw.svg" alt="">
+            </div>
+            </div>
+        
+            <div class="container mt-4">
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="judul">
+                <h1 class="text-center pt-5"><img src="image/Vector.svg" alt="">catmate</h1>
+            </div>
+            <!-- </div> -->
+            <ul class="menu-list mb-4">
+                <button type="button" class="btn btn-link">Beranda</button>
+                <button type="button" class="btn btn-link">Tentang</button>
+                <button type="button" class="btn btn-link">Fitur</button>
+                <button type="button" class="btn btn-link">Harga</button>
+                <button type="button" class="btn btn-link">Testimoni</button>
+                <button type="button" class="btn btn-link">FAQ</button>
+                <button type="button" class="btn btn-link">Siapa Kami</button>
+                <button type="button" class="btn btn-link">Kontak</button>
+            <ul/>
+            </div>
+        </nav>
+        
+        <section class="services">
+            <img class="bg-1" src="image/Background Gradient.svg" alt="">
+           <div class="container">
+               <div class="row">
+            <div class="service col-sm-6">
+                <h1 class="mb-4">Temukan jodoh untuk kucingmu</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+                <div class="">
+                    <br><button type="button" class="tombol">Unduh di Play Store</button>
+                </div>
+            </div>
+            <div class="service col-sm-6">
+                <img class="il-hero" src="image/image.svg" alt="">
+            </div>
+            </div>
+            </div>
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
